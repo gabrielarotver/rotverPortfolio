@@ -1,13 +1,60 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  // margin: 0;
+  // padding: 0;
 }
 
 section#name {
-  background-image: url("./desk5.jpg");
-  background-size: 100%;
+  background-image: url("./binary.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 90vh;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+section#name div#picture{
+  width: 50%;
+}
+
+section#name div#picture img {
+  border-radius: 5px;
+  width: 12rem;
+  height: 20rem;
+  display: block;
+  margin: 0 auto;
+}
+
+section#name div#name-info {
+  width: 50%;
   text-align: center;
-  padding: 4rem;
-  color: white;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 5px;
+}
+
+
+// ***************PROJECTS*****************
+section#projects {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+div.individualProject{
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+}
+
+div.individualProject a img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 5px;
+  margin: 0;
 }
