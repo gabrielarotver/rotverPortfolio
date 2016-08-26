@@ -1,7 +1,5 @@
 * {
   box-sizing: border-box;
-  // margin: 0;
-  // padding: 0;
 }
 
 section#name {
@@ -37,24 +35,35 @@ section#name div#name-info {
 }
 
 
-// ***************PROJECTS*****************
-section#projects {
-  width: 100%;
+section.projects {
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
+  margin: 2rem auto;
+}
+
+section.projects div.title {
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
 }
 
 div.individualProject{
   display: inline-block;
   width: 30%;
   text-align: center;
+  margin: 1rem;
 }
 
 div.individualProject a img {
-  width: 15rem;
-  height: 15rem;
+  width: 20rem;
+  height: 20rem;
   border-radius: 5px;
   margin: 0;
+}
+
+div.individualProject h4 {
+  font-size: 1em;
+  font-weight: bold;
 }
