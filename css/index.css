@@ -53,12 +53,14 @@ section#name div a {
 }
 
 section#welcome {
-  min-height: 20vh;
+  padding: 3rem;
   text-align: center;
 }
 
-section#welcome h3 {
-  font-size: 2rem;
+h3.title {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: bold;
 }
 
 /**************PROJECTS*****************/
