@@ -52,16 +52,37 @@ section#name div a {
   background-color: #3DC9B3;
 }
 
-section#welcome {
-  padding: 3rem;
+section.centeredSection {
+  padding: 3rem 0 4rem;
   text-align: center;
+}
+section#welcome {
+  background: #f3f5f8;
 }
 
 h3.title {
   font-size: 1rem;
   letter-spacing: 1px;
   font-weight: bold;
+  line-height: 25px;
 }
+
+section#welcome p {
+  width: 70%;
+  margin: 1rem auto;
+  color: #757575;
+  line-height: 25px;
+  font-size: 0.95rem;
+}
+
+
+/***************SKILLS********************/
+h3.title small {
+  font-weight: normal;
+  font-size: 0.95rem;
+}
+
+
 
 /**************PROJECTS*****************/
 section.projects {
