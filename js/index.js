@@ -5,10 +5,7 @@ $(document).ready(function(){
     animation: "slide",
 		directionNav: false,
 		touch: true,
-		pauseOnHover: true,
-		start: function() {
-			$.waypoints('refresh');
-		}
+		pauseOnHover: true
   });
 
   // smooth scrooling
