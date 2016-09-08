@@ -5,7 +5,8 @@ $(document).ready(function(){
     animation: "slide",
 		directionNav: false,
 		touch: true,
-		pauseOnHover: true
+		pauseOnHover: true,
+    slideshowSpeed: 5000
   });
 
   // smooth scrooling
