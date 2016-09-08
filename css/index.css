@@ -134,13 +134,10 @@ h3.title small {
   font-size: 0.95rem;
 }
 
-
-
 /**********MEDIA QUERIES******************/
 @media screen and (max-width: 992px) {
   /*******FLEXSLIDER PROJECTS*************/
   img.work {
     height: 30rem;
   }
-
 }
