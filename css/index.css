@@ -88,20 +88,31 @@ section#portfolio {
   letter-spacing: 5px;
 }
 
-.fa-circle {
-  color: #3DC9B3;
+section#portfolio a {
+  color: rgba(61, 201, 179, 0.7);
+  transition: all 0.6s;
 }
 
-
-/***************SKILLS********************/
-h3.title small {
-  font-weight: normal;
-  font-size: 0.95rem;
+section#portfolio a:hover {
+  color: rgba(61, 201, 179, 1);
 }
 
+/**************PROJECTS IN FLEXSLIDER*****************/
 
+div.flexslider {
+  margin-top: 5rem;
+}
 
-/**************PROJECTS*****************/
+.container {
+  width: 90%;
+}
+
+a.singleProject {
+  display: inline-block;
+  border: 6px solid rgba(61, 201, 179, .5);
+  border-radius: 5px;
+}
+
 section.projects {
   width: 90%;
   display: flex;
@@ -135,4 +146,11 @@ div.individualProject a img {
 div.individualProject h4 {
   font-size: 1em;
   font-weight: bold;
+}
+
+
+/***************SKILLS********************/
+h3.title small {
+  font-weight: normal;
+  font-size: 0.95rem;
 }
