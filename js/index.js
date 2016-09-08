@@ -6,8 +6,26 @@ $(document).ready(function(){
 		directionNav: false,
 		touch: true,
 		pauseOnHover: true,
-    slideshowSpeed: 5000
+    slideshowSpeed: 5000,
+    start: function() {
+			$.waypoints('refresh');
+		}
   });
+
+
+  // skills slideshow
+  $('.skillSlider').flexslider({
+    animation: "slide",
+		directionNav: false,
+		touch: true,
+		pauseOnHover: true,
+    slideshowSpeed: 5000,
+    start: function() {
+			$.waypoints('refresh');
+		}
+  });
+
+
 
   // smooth scrooling
   $(function() {
