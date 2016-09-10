@@ -6,12 +6,11 @@ $(document).ready(function(){
 		directionNav: false,
 		touch: true,
 		pauseOnHover: true,
-    slideshowSpeed: 5000,
-    start: function() {
-			$.waypoints('refresh');
-		}
+    slideshowSpeed: 5000
   });
 
+  // Materialize Slider for Skills
+  $('.slider').slider({full_width: true});
 
   // skills slideshow
   $('.skillSlider').flexslider({
@@ -19,10 +18,7 @@ $(document).ready(function(){
 		directionNav: false,
 		touch: true,
 		pauseOnHover: true,
-    slideshowSpeed: 5000,
-    start: function() {
-			$.waypoints('refresh');
-		}
+    slideshowSpeed: 5000
   });
 
 
