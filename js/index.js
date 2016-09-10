@@ -12,16 +12,6 @@ $(document).ready(function(){
   // Materialize Slider for Skills
   $('.slider').slider({full_width: true});
 
-  // skills slideshow
-  $('.skillSlider').flexslider({
-    animation: "slide",
-		directionNav: false,
-		touch: true,
-		pauseOnHover: true,
-    slideshowSpeed: 5000
-  });
-
-
 
   // smooth scrooling
   $(function() {
