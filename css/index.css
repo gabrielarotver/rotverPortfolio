@@ -138,19 +138,22 @@ h3.title small {
 
  section#skills div.flexslider {
   padding: 1rem 0;
-  background-color: #3DC9B3;
+  /*background-color: #3DC9B3;*/
+  background-color: #f3f5f8;
+  /*background-color: white;*/
   border: none;
 }
 
 h3#mySkillTitle {
-  color: white;
+  /*color: white;*/
   padding: 1rem;
   text-align: center;
   letter-spacing: 5px;
-  background-color: #3DC9B3;
+  /*background-color: #3DC9B3;*/
+  background-color: #f3f5f8;
+  /*background-color: white;*/
   margin-bottom: 0;
 }
-
 
 div h3.skill {
   font-size: 1rem;
@@ -159,8 +162,21 @@ div h3.skill {
   line-height: 25px;
 }
 
-i.icon-javascript-alt, i.icon-cplusplus, i.icon-java-bold, i.icon-ubuntu, i.icon-c, i.icon-ruby, i.icon-ruby-on-rails, i.icon-heroku{
-  font-size: 4.5rem;
+div h3.skill::before {
+  content: " ";
+  border: solid 2px #3DC9B3;
+  display: block;
+  width: 35px;
+  margin: 15px auto;
+}
+
+div.fa-stack i.fa-circle {
+  color: #3DC9B3;
+}
+
+section#skills ol.flex-control-nav{
+  background-color: #f3f5f8;
+  bottom: -20px;
 }
 
 /**********MEDIA QUERIES******************/
