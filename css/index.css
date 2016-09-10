@@ -136,22 +136,17 @@ h3.title small {
   font-size: 0.95rem;
 }
 
-section#skills div.skillSlider, section#skills div.slider {
+section#skills div.skillSlider {
   margin-top: 3rem;
   padding: 1rem 0;
   background-color: #3DC9B3;
 }
 
-section#skills div.skillSlider h3, section#skills div.slider h3{
+section#skills div.skillSlider h3{
   color: white;
   /*font-weight: bold;*/
   text-align: center;
   letter-spacing: 5px;
-}
-
-section#skills div.slider ul.slides li.active {
-  margin-top: 6rem;
-  padding-top: 2rem;
 }
 
 div h3.skill {
