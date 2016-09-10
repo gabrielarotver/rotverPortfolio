@@ -137,14 +137,13 @@ h3.title small {
 }
 
  section#skills div.slider {
-  /*margin-top: 3rem;*/
   padding: 1rem 0;
   background-color: #3DC9B3;
 }
 
 h3#mySkillTitle {
   color: white;
-  /*font-weight: bold;*/
+  padding-top: 1rem;
   text-align: center;
   letter-spacing: 5px;
   background-color: #3DC9B3;

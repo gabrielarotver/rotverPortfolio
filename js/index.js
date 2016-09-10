@@ -10,7 +10,10 @@ $(document).ready(function(){
   });
 
   // Materialize Slider for Skills
-  $('.slider').slider({full_width: true});
+  $('.slider').slider({
+    full_width: true,
+    height: 250
+  });
 
 
   // smooth scrooling
