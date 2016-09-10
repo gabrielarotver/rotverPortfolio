@@ -162,7 +162,7 @@ div h3.skill {
   line-height: 25px;
 }
 
-div h3.skill::before {
+div h3.skill::before{
   content: " ";
   border: solid 2px #3DC9B3;
   display: block;
@@ -178,6 +178,12 @@ section#skills ol.flex-control-nav{
   background-color: #f3f5f8;
   bottom: -20px;
 }
+
+/******************TIMELINE******************/
+section#timelineContainer {
+  padding-top: 0;
+}
+
 
 /**********MEDIA QUERIES******************/
 @media screen and (max-width: 992px) {
