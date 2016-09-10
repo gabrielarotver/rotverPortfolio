@@ -159,7 +159,7 @@ div h3.skill {
   line-height: 25px;
 }
 
-i.icon-javascript-alt{
+i.icon-javascript-alt, i.icon-cplusplus, i.icon-java-bold, i.icon-ubuntu, i.icon-c, i.icon-ruby, i.icon-ruby-on-rails, i.icon-heroku{
   font-size: 4.5rem;
 }
 
