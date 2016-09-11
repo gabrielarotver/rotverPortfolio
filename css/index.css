@@ -114,6 +114,37 @@ a.projectLink {
   display: inline-block;
 }
 
+
+div.card:hover {
+  background-color: rgba(61, 201, 179, 1);
+  transition: all 0.6s;
+}
+
+div.card:hover img {
+  opacity: 0.3;
+  filter: alpha(opacity=70);
+}
+
+
+div.card-image {
+  position: relative;
+}
+
+div.card:hover .centerText {
+  display: block;
+}
+.centerText {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+
+
 div.flexslider div.container div.row div {
   text-align: center;
 }
