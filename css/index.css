@@ -140,20 +140,15 @@ h3.title small {
 
  section#skills div.flexslider {
   padding: 1rem 0;
-  /*background-color: #3DC9B3;*/
   background-color: #f3f5f8;
-  /*background-color: white;*/
   border: none;
 }
 
 h3#mySkillTitle {
-  /*color: white;*/
   padding: 1rem;
   text-align: center;
   letter-spacing: 5px;
-  /*background-color: #3DC9B3;*/
   background-color: #f3f5f8;
-  /*background-color: white;*/
   margin-bottom: 0;
 }
 
@@ -164,7 +159,7 @@ div h3.skill {
   line-height: 25px;
 }
 
-div h3.skill::before, h3#name::after{
+div h3.skill::before, h3#name::after, div.detail h3::after{
   content: " ";
   border: solid 2px #3DC9B3;
   display: block;
@@ -190,10 +185,42 @@ img#me {
   margin: 2rem auto;
 }
 
-section#contactMe a {
+section#contactMe a, section#moreDetails a {
   text-decoration: none;
   color: #333;
 }
+
+
+/**********MORE DETAILS ABOUT ME*********/
+
+div.detail h3 {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  color: #3DC9B3;
+}
+
+section#moreDetails {
+  background-color: #f3f5f8;
+}
+
+section#moreDetails div.detail {
+  background-color: white;
+  padding: 2rem 0;
+}
+
+section#moreDetails div.detail span {
+  margin-top: 1rem;
+  color: #333;
+}
+
+section#moreDetails div.detail:hover {
+  border-bottom: 3px solid #3DC9B3;
+  transition: all 0.4s ease-in-out;
+  transform: translate(0, -15px);
+}
+
+
+
 
 
 /***************FOOTER**************/
