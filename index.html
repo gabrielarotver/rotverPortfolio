@@ -31,27 +31,29 @@
     <!-- Nav Bar -->
     <nav>
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo">GR</a>
+        <a href="#beginning" class="brand-logo">GR</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="sass.html" >Portfolio</a></li>
-          <li><a href="badges.html">Skills</a></li>
-          <li><a href="collapsible.html">About Me</a></li>
-          <li><a href="collapsible.html">Contact Me</a></li>
+          <li><a href="#welcome">About Me</a></li>
+          <li><a href="#workSlide" >Portfolio</a></li>
+          <li><a href="#skillsSlides">Skills</a></li>
+
+          <li><a href="#contactInfo">Contact Me</a></li>
         </ul>
 
         <!-- Mobile Friendly Nav -->
         <ul class="side-nav" id="mobile-demo">
-        <li><a href="sass.html">Portfolio</a></li>
-        <li><a href="badges.html">Skills</a></li>
-        <li><a href="collapsible.html">About Me</a></li>
-        <li><a href="mobile.html">Contact Me</a></li>
+          <li><a href="#welcome">About Me</a></li>
+        <li><a href="#workSlide">Portfolio</a></li>
+        <li><a href="#skillsSlides">Skills</a></li>
+
+        <li><a href="#contactInfo">Contact Me</a></li>
       </ul>
       </div>
     </nav>
 
     <!-- Name Section -->
-    <section id="name">
+    <section id="name" name="beginning">
       <div id="landing">
         <h1 class="flow-text">Gabriela Rotver</h1>
         <h3 class="flow-text">I program robots<br>and build web applications.</h3>
@@ -141,14 +143,14 @@
 </div>
 
     <!-- Skills -->
-    <section id="skills" class="centeredSection">
+    <section name="skillsSlides" id="skills" class="centeredSection">
       <h3 class="title">"LEARNING IS A TREASURE<br>THAT WILL FOLLOW ITS OWNER EVERYWHERE"<small><br>-Chinese Proverb</small></h3>
 
       <img src="./images/pagebreak.png" alt="" />
 
 
       <h3 id="mySkillTitle">MY SKILLS</h3>
-      <div name="workSlide" class="flexslider" id="skillSlides">
+      <div class="flexslider" id="skillSlides">
     <ul class="slides">
       <li>
         <div class="container">
@@ -270,7 +272,7 @@
 
 
     <!-- CONTACT ME -->
-    <section id=contactMe class="centeredSection container">
+    <section id=contactMe name="contactInfo" class="centeredSection container">
 
       <h3 class="title">WANT TO WORK WITH ME?</h3>
       <img src="./images/pagebreak.png" alt="" />
