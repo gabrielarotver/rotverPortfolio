@@ -137,7 +137,7 @@ div.card:hover .centerText {
   display: none;
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 40%;
   width: 100%;
   text-align: center;
   color: white;
